@@ -101,40 +101,64 @@
     </div>
   </section>
 
-  <!-- CARROS -->
-  <section id="carros" class="py-16 px-6 max-w-7xl mx-auto">
-    <h2 class="text-3xl font-bold text-principal mb-12 text-center">Nuestros Carros</h2>
-    <div class="flex flex-wrap justify-center gap-8">
-      <div class="bg-white/10 rounded-xl p-6 max-w-sm text-center hover:shadow-lg hover:translate-y-1 transition">
-        <img src="images/8.png" alt="Carros Dulces" class="mx-auto mb-4 rounded-lg"/>
-        <h3 class="text-principal font-bold text-xl mb-2">Wonka Dulce</h3>
-        <p class="mb-3">Un mundo de sabor y diversión con opciones para todos los gustos:</p>
-        <ul class="text-left list-disc list-inside space-y-1 text-white">
-          <li><strong>Wonka Clásico:</strong> gomitas, caramelos, chupetines y malvaviscos.</li>
-          <li><strong>Súper Wonka:</strong> al clásico le sumamos rocklets, flynpaff, hamburguesitas o panchitos, sapitos, dientitos, TNT o Fuego, chicles confitados.</li>
-          <li><strong>Mega Wonka:</strong> al clásico le agregamos golosinas importadas.</li>
-        </ul>
-      </div>
-      <div class="bg-white/10 rounded-xl p-6 max-w-sm text-center hover:shadow-lg hover:translate-y-1 transition">
-        <img src="images/9.png" alt="Carros Salados" class="mx-auto mb-4 rounded-lg"/>
-        <h3 class="text-principal font-bold text-xl mb-2">Carros Salados</h3>
-        <p class="mb-3">Sabores irresistibles para grandes y chicos. Todos nuestros carros salados incluyen salsas y toppings.</p>
-        <ul class="text-left list-disc list-inside space-y-1 text-white">
-          <li><strong>Panchería Clásica:</strong> panchos cortos.</li>
-          <li><strong>Súper Panchos:</strong> tamaño extra con toppings.</li>
-        </ul>
-      </div>
-      <div class="bg-white/10 rounded-xl p-6 max-w-sm text-center hover:shadow-lg hover:translate-y-1 transition">
-        <img src="images/10.png" alt="Barras y Bebidas" class="mx-auto mb-4 rounded-lg"/>
-        <h3 class="text-principal font-bold text-xl mb-2">Barras y Bebidas</h3>
-        <p class="mb-3">Ideal para refrescar el evento con opciones naturales y deliciosas.</p>
-        <ul class="text-left list-disc list-inside space-y-1 text-white">
-          <li>Smoothies frutales</li>
-          <li>Licuados</li>
-        </ul>
-      </div>
+<!-- CARROS -->
+<section id="carros" class="py-16 px-6 max-w-7xl mx-auto">
+  <h2 class="text-3xl font-bold text-principal mb-12 text-center">Nuestros Carros</h2>
+  
+  <!-- Grid en lugar de flex-wrap para alinear 3 columnas -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    
+<!-- Card 1 -->
+<div class="bg-white/10 rounded-xl p-6 text-center hover:shadow-lg hover:translate-y-1 transition">
+  <img src="images/8.png" alt="Carros Dulces" 
+       class="mx-auto mb-4 rounded-lg w-full h-48 object-cover"/>
+      <h3 class="text-principal font-bold text-lg mb-2">Wonka Dulce</h3>
+      <p class="mb-3 text-sm">Un mundo de sabor y diversión con opciones para todos los gustos:</p>
+      <ul class="text-left list-disc list-inside space-y-1 text-white text-sm">
+        <li><strong>Wonka Clásico:</strong> gomitas, caramelos, chupetines y malvaviscos.</li>
+        <li><strong>Súper Wonka:</strong> al clásico le sumamos rocklets, flynpaff, hamburguesitas o panchitos, sapitos, dientitos, TNT o Fuego, chicles confitados (según stock).</li>
+        <li><strong>Mega Wonka:</strong> al clásico le agregamos golosinas importadas.</li>
+        <li><strong>Mixto con Minidonitas:</strong> minidonitas simples con salsas y toppings.</li>
+        <li><strong>Mixto con Chocolates:</strong> minirocklets, Oreo crocante, sapitos, galletitas bañadas, minidonitas bañadas, rocklets.</li>
+        <li><strong>Wonka Solo Minidonitas:</strong> minidonitas simples con salsas y toppings.</li>
+        <li><strong>Wonka Minidonitas Especial:</strong> minidonitas simples con salsas y toppings, más variedad de sabores.</li>
+        <li><strong>Wonka Choco:</strong> carro solo de chocolates: almendras, licor, merengue, cranberry, pasas, cereal, galletitas, bananitas, rocklets, bombones y más.</li>
+        <li><strong>Wonka Estrella:</strong> tres carros a elección: minidonitas con salsas y toppings, gomitas, y mini cakes con cremas, dulce de leche, frutas, salsas y toppings.</li>
+      </ul>
     </div>
-  </section>
+    
+<!-- Card 2 -->
+<div class="bg-white/10 rounded-xl p-6 text-center hover:shadow-lg hover:translate-y-1 transition">
+  <img src="images/9.png" alt="Carros Salados" 
+       class="mx-auto mb-4 rounded-lg w-full h-48 object-cover"/>
+  <h3 class="text-principal font-bold text-lg mb-2">Carros Salados</h3>
+      <p class="mb-3 text-sm">Sabores irresistibles para grandes y chicos. Todos nuestros carros salados incluyen salsas y toppings.</p>
+      <ul class="text-left list-disc list-inside space-y-1 text-white text-sm">
+        <li><strong>Panchería Clásica:</strong> panchos cortos.</li>
+        <li><strong>Súper Panchos:</strong> tamaño extra con toppings.</li>
+        <li><strong>Conos Calientes:</strong> papas fritas, patitas, smiles, nachos y más.</li>
+        <li><strong>Bondiolita Desmechada:</strong> servida bien caliente.</li>
+        <li><strong>Tacos y Buffeteras:</strong> variedad de platos calientes.</li>
+        <li><strong>Wonka Feliz:</strong> cajita infantil con hamburguesa o patitas, papas, smiles o noisettes, y juguete según edad.</li>
+        <li><strong>Wonka Burguer:</strong> hamburguesas servidas en bandejas con papas y toppings.</li>
+      </ul>
+    </div>
+    
+<!-- Card 3 -->
+<div class="bg-white/10 rounded-xl p-6 text-center hover:shadow-lg hover:translate-y-1 transition">
+  <img src="images/bebida.jpg" alt="Barras y Bebidas" 
+       class="mx-auto mb-4 rounded-lg w-full h-48 object-cover"/>
+  <h3 class="text-principal font-bold text-lg mb-2">Barras y Bebidas</h3>
+      <p class="mb-3 text-sm">Ideal para refrescar el evento con opciones naturales y deliciosas.</p>
+      <ul class="text-left list-disc list-inside space-y-1 text-white text-sm">
+        <li>Smoothies frutales</li>
+        <li>Licuados</li>
+      </ul>
+    </div>
+    
+  </div>
+</section>
+
 
   <!-- Servicio Integral -->
   <section id="integral" class="py-16 px-6 max-w-4xl mx-auto bg-rosaClaro rounded-xl shadow-lg text-center mb-16">
